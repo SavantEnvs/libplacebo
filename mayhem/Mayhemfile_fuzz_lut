@@ -1,0 +1,9 @@
+project: savantenvs/libplacebo
+target: fuzz_lut
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_lut/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_lut
+    libfuzzer: true
+    timeout: 30

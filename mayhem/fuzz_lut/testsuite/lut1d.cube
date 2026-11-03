@@ -1,0 +1,6 @@
+TITLE "1D LUT example"
+LUT_1D_SIZE 3
+# comment
+0.0 0.0 0.0
+0.5 0.5 0.5
+1.0 1.0 1.0

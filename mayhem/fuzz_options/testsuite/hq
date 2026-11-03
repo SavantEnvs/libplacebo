@@ -1,0 +1,1 @@
+upscaler=ewa_lanczossharp,deband=yes,peak_percentile=99.5,contrast_recovery=0.3,tile_size=32

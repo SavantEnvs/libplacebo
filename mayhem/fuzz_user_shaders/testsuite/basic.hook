@@ -1,0 +1,10 @@
+//!HOOK LUMA
+//!BIND HOOKED
+//!DESC example sharpen
+//!WIDTH HOOKED.w 2 *
+//!HEIGHT HOOKED.h 2 *
+
+vec4 hook() {
+    vec4 c = HOOKED_texOff(vec2(0.0));
+    return c * 1.1;
+}

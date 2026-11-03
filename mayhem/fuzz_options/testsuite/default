@@ -1,0 +1,1 @@
+upscaler=lanczos,downscaler=hermite,frame_mixer=oversample,sigmoid=yes,peak_detect=yes,dither=yes

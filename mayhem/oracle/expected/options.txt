@@ -1,0 +1,4 @@
+options load("upscaler=lanczos,downscaler=hermite,sigmoid=yes") = ok -> "upscaler=lanczos,downscaler=hermite,sigmoid=yes"
+options load("preset=high_quality") = ok -> "upscaler=ewa_lanczossharp,downscaler=hermite,frame_mixer=oversample,deband=yes,sigmoid=yes,peak_detect=yes,peak_percentile=99.99500274658203,contrast_recovery=0.30000001192092896,dither=yes"
+options load("no_such_option=1") = fail -> ""
+options load("peak_percentile=99.5,tile_size=48") = ok -> "peak_percentile=99.5,tile_size=48"

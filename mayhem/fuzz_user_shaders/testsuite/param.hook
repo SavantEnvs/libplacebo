@@ -1,0 +1,21 @@
+//!PARAM strength
+//!DESC strength param
+//!TYPE float
+//!MINIMUM 0.0
+//!MAXIMUM 2.0
+1.0
+
+//!HOOK MAIN
+//!BIND HOOKED
+//!SAVE TEMP
+//!COMPONENTS 3
+
+vec4 hook() {
+    return HOOKED_tex(HOOKED_pos) * strength;
+}
+
+//!TEXTURE TEX
+//!SIZE 2 2
+//!FORMAT r8
+//!FILTER LINEAR
+00ff80ff

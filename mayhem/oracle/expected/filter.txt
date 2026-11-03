@@ -1,0 +1,1 @@
+filter: triangle(0.25)=0.7500 triangle(1)=0.0000 lanczos(0)=1.0000 lanczos(1)=0.0000

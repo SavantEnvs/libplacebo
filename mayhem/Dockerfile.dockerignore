@@ -1,0 +1,3 @@
+# Prune stale build output from the context; build.sh recreates both. Keep .git, 3rdparty and all sources.
+build-fuzz
+build-tests
